@@ -625,19 +625,23 @@ textarea.input {
   border-bottom: 2px solid #E4E7ED;
   border-top: 3px solid #d13b00;
 }
+.main-nav{
+  margin-left: 39%;
 
+}
 /*----------------------------*\
 	Main nav
 \*----------------------------*/
 
 .main-nav>li+li {
-  margin-left: 30px
+  margin-left: 30px;
+
 }
 
 .main-nav>li>a {
   padding: 20px 0px;
   display:block;
- 
+
 
 }
 /*submenu de empresas*/

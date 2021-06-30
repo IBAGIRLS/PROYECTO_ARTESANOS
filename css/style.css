@@ -636,7 +636,51 @@ textarea.input {
 
 .main-nav>li>a {
   padding: 20px 0px;
+  display:block;
+ 
+
 }
+/*submenu de empresas*/
+.main-nav li .dos{
+  margin-left: 250%;
+  
+
+}
+.main-nav li ul {
+  padding: 0px;
+  display:none;
+  position:absolute;
+  min-width:300px;  
+  font-size: 100%;
+
+}
+.main-nav li:hover > ul {
+  display:block;
+}
+
+.main-nav li>ul>li>a:after{ 
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: #d13b00;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+
+}
+.main-nav>li>ul>li>a:hover, .main-nav>li>ul>li>a:focus, .main-nav>li>ul>li.active>a {
+  color: #d13100;
+  background-color: transparent;
+}
+.main-nav>li>ul>li>a:hover:after, .main-nav>li>ul>li>a:focus:after, .main-nav>li>ul>li.active>a:after {
+  width: 60%;
+}
+
+.header-ctn li.nav-toggle {
+  display: none;
+}
+
+/*fin de submenu*/
 
 .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
   color: #d13100;
@@ -675,7 +719,7 @@ textarea.input {
     top: 0;
     background: #15161D;
     height: 100vh;
-    max-width: 250px;
+    max-width: 290px;
     width: 0%;
     overflow: hidden;
     z-index: 22;
@@ -707,6 +751,22 @@ textarea.input {
     padding: 15px;
     color: #FFF;
   }
+  .main-nav>li .uno{
+    margin-left: 5%;
+   
+  }
+  .main-nav>li>.uno>li>a {
+    color: #FFF;
+
+  }
+  .main-nav>li .dos{
+    margin-left: 5%;
+    margin-top: 38%; 
+  }
+  .main-nav>li>.dos>li>a {
+    color: #FFF;
+  }
+
 }
 
 /*=========================================================

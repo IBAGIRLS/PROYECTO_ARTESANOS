@@ -50,6 +50,7 @@
 						<li><a href="#"><i class="fa fa-user-o"></i> My Account</a></li>
 					</ul>
 				</div>
+		
 			</div>
 			<!-- /TOP HEADER -->
 
@@ -163,6 +164,19 @@
 			<!-- /MAIN HEADER -->
 		</header>
 		<!-- /HEADER -->
+		<script>
+			$(document).ready(function(){
+			  $('#d_toro').click(function(){
+				$('#contenidos').load("paginas-artesanos/Dtoro.html");
+			  });
+			  $('#proyectos').click(function(){
+				$('#contenidos').load("pages/proyectos.html");
+			  });
+			  $('#index').click(function(){
+				$('#contenidos').load("index.html");
+			  });
+			})
+		  </script>
 
 		<!-- NAVIGATION -->
 		<nav id="navigation">
@@ -176,7 +190,7 @@
 						<li><a href="#">QUIENES SOMOS</a></li>
 						<li><a href="#">EMPRESAS</a>
 							<ul class="uno">
-								<li><a href="paginas-artesanos/Dtoro.html">D'Toro</a></li>
+								<li><a href="paginas-artesanos/Dtoro.html" id="d_toro">D'Toro</a></li>
 								<li><a href="paginas-artesanos/manupili.html">Manualidades Pili</a></li>
 								<li><a href="paginas-artesanos/ocobos.html">Los Ocobos</a></li>
 								<li><a href="paginas-artesanos/hecho100.html">Hecho a Mano 100%</a></li>
@@ -207,104 +221,64 @@
 		<br>
 		<br>
 		<!-- SECTION -->
-		<div class="section">
-			<h2 style="text-align: center;">ARTESANAS</h2>
-			 <!--container -->
-			<div class="container">
-				<!--row--> 
-				<div class="row">
-					<!--shop--> 
-					<div class="col-md-3 col-xs-6">
-						<div class="shop">
-							<div class="shop-img">
-								<img src="img/fotos-artesanos/1.jpeg" alt="">
-							</div>
-							<div class="shop-body">
-								<h3>Laptop<br>Collection</h3>
-								<a href="#" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-3 col-xs-6">
-						<div class="shop">
-							<div class="shop-img">
-								<img src="./img/fotos-artesanos/2.jpeg" alt="">
-							</div>
-							<div class="shop-body">
-								<h3>Accessories<br>Collection</h3>
-								<a href="#" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-3 col-xs-6">
-						<div class="shop">
-							<div class="shop-img">
-								<img src="./img/fotos-artesanos/3.jpeg" alt="">
-							</div>
-							<div class="shop-body">
-								<h3>Cameras<br>Collection</h3>
-								<a href="#" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-3 col-xs-6">
-						<div class="shop">
-							<div class="shop-img">
-								<img src="./img/fotos-artesanos/4.jpeg" alt="">
-							</div>
-							<div class="shop-body">
-								<h3>Cameras<br>Collection</h3>
-								<a href="#" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-3 col-xs-6">
-						<div class="shop">
-							<div class="shop-img">
-								<img src="./img/fotos-artesanos/5.jpeg" alt="">
-							</div>
-							<div class="shop-body">
-								<h3>Cameras<br>Collection</h3>
-								<a href="#" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-3 col-xs-6">
-						<div class="shop">
-							<div class="shop-img">
-								<img src="./img/fotos-artesanos/6.jpeg" alt="">
-							</div>
-							<div class="shop-body">
-								<h3>Cameras<br>Collection</h3>
-								<a href="#" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-3 col-xs-6">
-						<div class="shop">
-							<div class="shop-img">
-								<img src="./img/fotos-artesanos/7.jpeg" alt="">
-							</div>
-							<div class="shop-body">
-								<h3>Cameras<br>Collection</h3>
-								<a href="#" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
-							</div>
-						</div>
-					</div>
-					
-				</div>
+
+	<div class="general">
+		<div class="empresas">
+			<div class="logos">
+				
+				<img src="/img/logo-artesanos/LogoToro.png" alt="">
+				<button class="button">ver más</button>
 				
 			</div>
-			
+			<div class="logos">
+				
+				<img src="/img/logo-artesanos/ManualidadesPili.png" alt="">
+				<button class="button">ver más</button>
+			</div>
+			<div class="logoos">
+				
+				<img class="casita" src="/img/logo-artesanos/La Casita Artesanal del Tolima.png" alt="">
+				<button class="button">ver más</button>
+			</div>
+		</div>
+		<div class="empresas">
+			<div class="logos">
+				
+				<img src="/img/logo-artesanos/calzado alejandro.jpeg" alt="">
+				<button class="button">ver más</button>
+			</div>
+			<div class="logos">
+				
+				<img src="/img/logo-artesanos/los ocobos.jpeg" alt="">
+				<button class="button">ver más</button>
+			</div>
+			<div class="logos">
+				
+				<img src="/img/logo-artesanos/hecho a mano.PNG" alt="">
+				<button class="button">ver más</button>
+			</div>
+		</div>
+		<div class="empresas">
+			<div class="logos">
+				
+				<img src="/img/logo-artesanos/sandra.png" alt="">
+				<button class="button">ver más</button>
+			</div>
+			<div class="logos">
+				
+				
+				<button class="button">ver más</button>
+			</div>
+			<div class="logos">
+				
+				<img src="/img/logo-artesanos/gato.png" alt="">
+				<button class="button">ver más</button>
+			</div>
 		</div>
 		
 		
+	</div>
+		<br>
  		<!--
 		<div class="section">
 			
